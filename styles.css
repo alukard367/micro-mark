@@ -176,7 +176,7 @@
   .xbox {
     width: 100%;
     height: 350px;
-    background: url('./img/ebooks-bg.jpg') no-repeat center center/cover;
+    background: url('./img/PROJECT\ reseller.png') no-repeat center center/cover;
     margin-bottom: 20px;
   }
   
@@ -303,6 +303,7 @@
       padding: 30px;
       transform: translateX(-500px);
       transition: transform 0.5s ease-in-out;
+      z-index: 10000;
     }
   
     .main-nav ul.main-menu li {
