@@ -1,8 +1,8 @@
 const menuBtn = document.querySelector(".menu-btn")
 const mainMenu = document.querySelector(".main-menu")
 
-const toggleContent = document.querySelector(".toggle-content")
-const readMoreBtn = document.querySelector(".readmore")
+const toggleContent = document.querySelectorAll(".toggle-content")
+const readMoreBtn = document.querySelectorAll(".readmore")
 
 menuBtn.addEventListener("click", ()=> {
     mainMenu.classList.toggle("show")

@@ -192,23 +192,64 @@
     margin-left: 10px;
   }
   
-  /* Xbox */
-  .xbox {
+  /* Reseller */
+  .reseller {
     width: 100%;
     height: 350px;
     background: url('./img/PROJECT\ reseller.png') no-repeat center center/cover;
     margin-bottom: 20px;
   }
   
-  .xbox .content {
+  .reseller .content {
     width: 40%;
     padding: 50px 0 0 30px;
+    position: relative;
   }
   
-  .xbox p, .carbon p {
+  .reseller p, .carbon p {
     margin: 10px 0 20px;
   }
+
+  .reseller .content .btn {
+    position: absolute;
+    bottom: -490%;
+    margin-left: 28%;
+    background: #fff;
+    color: #111;
+  }
+
+  .reseller .content .btn:hover {
+    background: #111;
+    color: #fff;
+  }
+
+  .reseller .content .btn:active {
+    background: #222;
+  }
+
+  /* read */
+
+  .title {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .title h1,
+  .title h2 {
+    text-transform: capitalize;
+  }
+
+  .title h1 {
+    font-size: 2rem;
+  }
+
+  .fa-heart {
+    color: red;
+    font-size: 1rem;
+  }
   
+
   /* Carbon */
   .carbon {
     width: 100%;
@@ -344,11 +385,11 @@
       grid-template-columns: repeat(2, 1fr);
     }
   
-    .xbox .content p {
+    .reseller .content p {
       display: none;
     }
   
-    .xbox .content h2 {
+    .reseller .content h2 {
       margin-bottom: 20px;
     }
   
@@ -379,7 +420,7 @@
       margin-bottom: 20px;
     }
 
-    .xbox .content a {
+    .reseller .content a {
       font-size: .8rem;
     }
   }
