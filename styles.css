@@ -106,23 +106,20 @@
 
   /* readmore */
 
-  .readmore {
-    color: rgb(37, 37, 157);
+  /* .btn-expand-more {
+    color: gray;
     cursor: pointer;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: none;
+    user-select: none;
+  }
+  .btn-expand-more:hover {
+    color: rgb(65, 60, 60);
   }
 
-  /* working with span */
+  .btn-expand-more:active {
+    color: gray;
+  } */
 
-  .toggle-content {
-    display: none;
-  }
 
-  .toggle-content.showmore {
-    display: block;
-  }
   
   /* Showcase */
   .showcase {
