@@ -106,7 +106,7 @@
 
   /* readmore */
 
-  /* .btn-expand-more {
+  .btn-expand-more {
     color: gray;
     cursor: pointer;
     user-select: none;
@@ -117,8 +117,28 @@
 
   .btn-expand-more:active {
     color: gray;
-  } */
+  }
 
+  /* home cards */
+
+  /* .expand-active {
+    height: 40px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    position: relative;
+  } */
+  
+  .expandMoreContent p.expand-active {
+    height: auto;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    position: relative;
+  }
+
+  .home-cards p{
+    height: 40px;
+    overflow: hidden;
+  }
 
   
   /* Showcase */
