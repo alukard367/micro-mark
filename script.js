@@ -21,3 +21,17 @@ function expand() {
 expandsMore.forEach(expandMore => {
     expandMore.addEventListener("click", expand)
 })
+
+const sendEmail = () => {
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "johnmark.garcia367@gmail.com",
+        Password : "password",
+        To : 'them@website.com',
+        From : "you@isp.com",
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+}

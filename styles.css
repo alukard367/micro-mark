@@ -271,12 +271,55 @@
   .carbon {
     width: 100%;
     height: 350px;
-    background: url('https://i.ibb.co/72cgtsz/carbon.jpg') no-repeat center center/cover;
+    background: url('./img/contact.png') no-repeat center center/cover;
   }
   
   .carbon .content {
-    width: 55%;
-    padding: 100px 0 0 30px;
+    width: 50%;
+    padding: 10px 0 0 30px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vw 4vw;
+    width: 90%;
+    height: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  form h2 {
+    color: white;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+    user-select: none;
+  }
+
+
+  form input, form textarea {
+    resize: none;
+    border: 0;
+    margin: 5px 0;
+    padding: 5px;
+    outline: none;
+    background: white;
+    font-size: 16px;
+  }
+
+  form button {
+    padding: 5px;
+    color: #000;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 8px auto 0;
+    border-radius: 5px;
   }
   
   /* Follow */
@@ -411,11 +454,21 @@
     }
   
     .carbon .content {
-      width: 85%;
+      width: 95%;
     }
   
     .links .links-inner {
       grid-template-columns: repeat(2, 1fr);
+    }
+
+    .carbon .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .carbon {
+      background: #000;
     }
   }
   
