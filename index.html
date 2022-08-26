@@ -206,14 +206,24 @@
           <!-- Carbon -->
           <section class="carbon dark" id="contact">
             <div class="content">
-              <form onsubmit="sendEmail(); reset(); return false;">
+              <!-- <form onsubmit="sendEmail(); reset(); return false;">
                 <h2>Get In Touch</h2>
                 <input type="text" id="name" placeholder="Enter Name..." required>
                 <input type="email" id="email" placeholder="Enter Email..." required>
                 <input type="text" id="phone" placeholder="Enter Number...">
                 <textarea id="message" rows="4" placeholder="How Can We Help You?"></textarea>
                 <button type="submit">Send</button>
-              </form>
+              </form> -->
+
+              <form action="https://formsubmit.co/johnmark.garcia367@gmail.com" method="POST">
+                <h2>Get In Touch</h2>
+                <input type="text" name="name" placeholder="Enter Your Name..." required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <textarea name="message" placeholder="Write Your Message Here..." required></textarea>
+                <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+                <input type="hidden" name="_autoresponse" value="We will get back to you soon as soon as we read your message. thank you!">
+                <button type="submit">Send</button>
+           </form>
                 
             </div>
           </section>
