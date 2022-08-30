@@ -6,7 +6,17 @@ const expandsMore = document.querySelectorAll("[expand-more]")
 menuBtn.addEventListener("click", ()=> {
     mainMenu.classList.toggle("show")
     document.body.classList.toggle("no-scroll")
+
 })
+
+// document.body.addEventListener("click", ()=> {
+//     mainMenu.classList.toggle("show")
+//     document.body.classList.toggle("no-scroll")
+// })
+
+
+
+
 
 function expand() {
     const showContent = document.getElementById(this.dataset.target)
