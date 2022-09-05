@@ -30,6 +30,25 @@
     max-width: 1100px;
     margin: auto;
   }
+
+  /* Pop Up Modal */
+
+  .modal {
+    z-index: 100000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 70%;
+    height: 80%;
+    background: rgba(0,0,0,0.8);
+    color: white;
+  }
+
+  .modal::backdrop {
+    background: rgba(0,0,0,0.5);
+  }
   
   /* Nav */
   .main-nav {

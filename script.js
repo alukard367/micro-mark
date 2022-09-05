@@ -3,11 +3,28 @@ const mainMenu = document.querySelector(".main-menu")
 
 const expandsMore = document.querySelectorAll("[expand-more]")
 
+const openModal = document.querySelector(".open-modal")
+const closeModal = document.querySelector(".close-modal")
+const modal = document.querySelector(".modal")
+
+openModal.addEventListener("click", () => {
+    modal.showModal()
+    document.body.classList.add("no-scroll")
+})
+
+closeModal.addEventListener("click", () => {
+    modal.close()
+    document.body.classList.remove("no-scroll")
+
+})
+
 menuBtn.addEventListener("click", ()=> {
     mainMenu.classList.toggle("show")
     document.body.classList.toggle("no-scroll")
 
 })
+
+
 
 // document.body.addEventListener("click", ()=> {
 //     mainMenu.classList.toggle("show")
