@@ -7,6 +7,10 @@ const openModal = document.querySelector(".open-modal")
 const closeModal = document.querySelector(".close-modal")
 const modal = document.querySelector(".modal")
 
+const openModal2 = document.querySelector(".open-modal-2")
+const closeModal2 = document.querySelector(".close-modal-2")
+const modal2 = document.querySelector(".modal-2")
+
 openModal.addEventListener("click", () => {
     modal.showModal()
     document.body.classList.add("no-scroll")
@@ -17,6 +21,19 @@ closeModal.addEventListener("click", () => {
     document.body.classList.remove("no-scroll")
 
 })
+
+openModal2.addEventListener("click", () => {
+    modal2.showModal()
+    document.body.classList.add("no-scroll")
+})
+
+closeModal2.addEventListener("click", () => {
+    modal2.close()
+    document.body.classList.remove("no-scroll")
+
+})
+
+
 
 menuBtn.addEventListener("click", ()=> {
     mainMenu.classList.toggle("show")
