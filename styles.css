@@ -302,6 +302,50 @@
     background: #222;
   }
 
+  .fa-check {
+    color: white;
+    background: rgb(19, 170, 19);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 2px;
+  }
+
+  .modal-2 h4,
+  .modal-2 h3,
+  .modal-2 h2 {
+    color: black;
+  }
+
+  .fire {
+    color: red;
+  }
+  .approved {
+    color: orange;
+  }
+
+  .pin {
+    color: red;
+  }
+  .lightning {
+    color: orange;
+    font-size: 1.2rem;
+  }
+
+  .modal-title {
+    text-align: center;
+  }
+  .modal-content {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100vh;
+    height: 50vh;
+  }
+  .modal-content-1 {
+    padding: 1rem;
+    line-height: 1.7;
+  }
+
   /* read */
 
   .title {
@@ -320,7 +364,7 @@
   }
 
   .fa-heart {
-    color: red;
+    color: rgb(196, 35, 35);
     font-size: 1rem;
   }
   
@@ -469,6 +513,8 @@
       z-index: 10000000;
     }
 
+    
+
     /* .menu-btn i::before {
       content: "";
       display: block;
@@ -575,6 +621,17 @@
 
     .reseller .content a {
       font-size: .8rem;
+    }
+
+    .modal-content {
+      flex-direction: column;
+      max-width: fit-content;
+      height: 100%;
+      text-align: center;
+    }
+
+    .modal-content-1, .modal-content-2 {
+      padding: 1rem;
     }
   }
 
