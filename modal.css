@@ -1,0 +1,101 @@
+  /* Pop Up Modal */
+
+  .modal {
+    z-index: 100000000;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 70%;
+    height: 80%;
+    background: white;
+    color: black;
+    border: none;
+  }
+
+  .modal-2 {
+    z-index: 100000000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 70%;
+    height: 80%;
+    background: white;
+    color: white;
+  }
+
+  .modal-2::backdrop {
+    background: rgba(0,0,0,0.7);
+  }
+  .modal::backdrop {
+    background: rgba(0,0,0,0.7)
+  }
+
+  .fa-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000;
+    background: white;
+    font-size: 1.5rem;
+  }
+
+  .fa-close:hover {
+    color: #555;
+  }
+
+  .fa-close:active {
+    color: #000;
+  }
+
+  dialog p,
+  dialog h2 {
+    color: #000;
+  }
+
+
+  .modal-2 h4,
+  .modal-2 h3,
+  .modal-2 h2 {
+    color: black;
+  }
+
+  .fire {
+    color: red;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .approved {
+    color: orange;
+  }
+
+  .pin {
+    color: red;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .lightning {
+    color: orange;
+    font-size: 1.2rem;
+  }
+
+  .modal-title {
+    padding: 1rem;
+  }
+  .modal-content {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 50vh;
+  }
+  .modal-content-1, .modal-content-2 {
+    padding: 1rem;
+    line-height: 1.7;
+  }
+
+  .modal-2 {
+    padding-left: 1rem;
+  }
