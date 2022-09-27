@@ -122,6 +122,49 @@
     .reseller .content a {
       font-size: .8rem;
     }
+    
+    .reseller {
+      background: url(./img/resell-media.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      /* position: relative; */
+    }
+
+    .reseller .content .btn {
+      position: absolute;
+      bottom: -390%;
+      margin-left: 50%;
+      margin-right: 50%;
+      transform: translateX(-50% -50%);
+      background: #fff;
+      color: #111;
+
+    }
+
+    .reseller a {
+      width: 80%;
+      font-size: 1rem!important;
+      min-width: fit-content;
+      padding: 10px;
+      border-radius: 2px;
+      margin-left: 50%!important;
+      margin-right: 50%!important;
+      transform: translate(-50% -50%)!important;
+    }
+
+    
+
+    /* .reseller::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 350px;
+      background: rgba(0,0,0,0.7);
+    } */
 
     .modal-content {
       flex-direction: column;

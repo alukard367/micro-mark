@@ -85,7 +85,7 @@
     padding: 10px 20px;
     background: #262626;
     color: #fff;
-    font-size: 15px;;
+    font-size: 15px;
   }
   
   .btn:hover {
@@ -218,6 +218,8 @@
     background: url('./img/PROJECT\ reseller.png') no-repeat center center/cover;
     margin-bottom: 20px;
   }
+
+
   
   .reseller .content {
     width: 40%;
